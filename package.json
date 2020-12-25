@@ -1,11 +1,29 @@
 {
   "name": "authenticationserver_jwt",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TST64/AuthenticationServer_JWT.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TST64/AuthenticationServer_JWT/issues"
+  },
+  "homepage": "https://github.com/TST64/AuthenticationServer_JWT#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
 }
